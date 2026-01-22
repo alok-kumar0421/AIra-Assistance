@@ -56,3 +56,70 @@ h1{
     letter-spacing: 2px;
 
 }
+
+
+/* =========================
+   RESPONSIVE DESIGN
+========================= */
+
+/* Tablets */
+@media (max-width: 768px) {
+
+    #logo{
+        width: 30vh;
+    }
+
+    h1{
+        font-size: 24px;
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    #name,
+    #va{
+        font-size: 32px;
+    }
+
+    #btn{
+        width: 60%;
+        font-size: 18px;
+        height: 40px;
+    }
+
+    #voice{
+        width: 160px;
+    }
+}
+
+/* Mobile Devices */
+@media (max-width: 480px) {
+
+    body{
+        gap: 20px;
+        padding: 10px;
+    }
+
+    #logo{
+        width: 24vh;
+    }
+
+    h1{
+        font-size: 20px;
+    }
+
+    #name,
+    #va{
+        font-size: 26px;
+    }
+
+    #btn{
+        width: 80%;
+        font-size: 16px;
+        height: 38px;
+        border-radius: 18px;
+    }
+
+    #voice{
+        width: 140px;
+    }
+}
