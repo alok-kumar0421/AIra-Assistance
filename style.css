@@ -23,7 +23,7 @@ h1{
 
 }
 #name{
-    color:rgb(228, 41, 54);
+    color:rgb(228, 41, 153);
     font-size: 42px;
 }
 #va{
@@ -33,7 +33,7 @@ h1{
 #voice{
     width:200px;
     display:none;
-    height:120px;
+    
 }
 #btn{
     width:30%;
