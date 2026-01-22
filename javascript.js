@@ -80,6 +80,15 @@ else if(message.includes("date")){
     })
     speak(time)
 }
+else if(message.includes("what can you do")){
+        speak("what are going in your mind, i can do everything ,because i am very powwerfull assistance")
+    }
+    else if(message.includes("tumhara malik kaun hai")){
+        speak("mere malik to mister Alok hai, unhone hi mujhe banaya hai")
+    }
+    else if(message.includes("would you like to marry me")||message.includes("do you like to marry me")||message.includes("like to marry me")){
+        speak("No, i am virtual assistance, my gender is different, from Human, so i can marry with only Artificial intelligent, like, grok,chatgpt,gemini, recently i like deepseek")
+    }
     else{
         speak(`this is what i found on internet about${message}`)
         window.open(`https://www.google.com/search?q=${message}`)
